@@ -14,3 +14,26 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.random-item-container {
+  margin-top: 3rem;
+}
+
+.tag {
+  background-color: orange;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.tag.highlight {
+  background-color: blue;
+}
